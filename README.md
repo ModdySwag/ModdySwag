@@ -7,6 +7,7 @@
 <br>
 
 <p align="center">
+  <br>
   <a href="https://www.moddys.net"><img src="https://img.shields.io/badge/moddys.net-0E8C7C?style=flat-square" alt="moddys.net"></a>
   <img src="https://img.shields.io/badge/licence-MIT%20%7C%20AGPL--3.0-0E8C7C?style=flat-square" alt="Licence: MIT or AGPL-3.0">
   <img src="https://img.shields.io/badge/telemetry-none-FFB86B?style=flat-square" alt="No telemetry">
