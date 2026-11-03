@@ -69,9 +69,9 @@ the feature lists are short.
 - **No account, no telemetry, no ads.** Nothing is collected and nothing is uploaded. Where an
   app has to touch the network — a station, a feed, an update check — the README says exactly
   what it asks for.
-- **Hand-written beats generated.** The big apps have no framework, no bundler and no build
-  step beyond a small script of their own. It makes them smaller, faster to start, and
-  possible for one person to hold in their head.
+- **Written by hand.** The big apps have no framework, no bundler and no build step beyond a
+  small script of their own. It keeps them small, quick to start, and possible for one person
+  to hold in their head.
 - **Honest limits.** Every README has a section on what does not work yet, or what the beta
   does badly. A known limitation written down is worth more than a feature list.
 
