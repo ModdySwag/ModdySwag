@@ -4,6 +4,8 @@
   <img src="https://raw.githubusercontent.com/ModdySwag/ModdySwag/main/assets/hero-light.svg" alt="MODDYS — local-first software for Windows, Android and the browser">
 </picture>
 
+<br>
+
 <p align="center">
   <a href="https://www.moddys.net"><img src="https://img.shields.io/badge/moddys.net-0E8C7C?style=flat-square" alt="moddys.net"></a>
   <img src="https://img.shields.io/badge/licence-MIT%20%7C%20AGPL--3.0-0E8C7C?style=flat-square" alt="Licence: MIT or AGPL-3.0">
@@ -24,12 +26,25 @@ the feature lists are short.
 
 ## Start here
 
-| | |
-|:--|:--|
-| <a href="https://github.com/ModdySwag/SSH-it"><img src="assets/ssh-it.png" width="430" alt="SSH-it — terminal, session list and file panel"></a> | **SSH-it** — a native Windows SSH workspace that drives the real OpenSSH client.<br><br>ConPTY terminal with a full VT parser, split panes and broadcast, an SFTP panel with dual panes, resume and mirror, jump chains with per-hop keys, MFA through the pane, and a session store that is just JSON files you can read. MIT.<br><br>`Windows` · `C# / .NET` · [Releases](https://github.com/ModdySwag/SSH-it/releases) |
-| <a href="https://github.com/ModdySwag/world-radio-and-podcasts-android"><img src="assets/world-radio.jpg" width="430" alt="MODDYS World Radio and Podcasts — the globe, station list and player"></a> | **MODDYS World Radio & Podcasts** — 71,577 live stations plus a 58,795-show podcast directory, on Android and iOS.<br><br>Keeps playing with the screen off and the app in the background, puts the station on your lock screen, and doesn't lose the ~11,600 stations that still stream over plain `http://`. Both apps ship the same shell script as the site, byte for byte.<br><br>`Android` · `iOS` · [Android](https://github.com/ModdySwag/world-radio-and-podcasts-android/releases) · [iOS](https://github.com/ModdySwag/world-radio-and-podcasts-ios/releases) |
-| <a href="https://github.com/ModdySwag/PatternForge"><img src="assets/pattern-forge.jpg" width="430" alt="Pattern Forge — the workstation view with the pattern editor"></a> | **Pattern Forge** — a live-coding music workstation built on [Strudel](https://strudel.cc).<br><br>A full GUI over the TidalCycles pattern language: a pattern editor with its own library of ready patterns, instruments and a mixer, recording and export, and a Windows build that runs the same code as the site. 26,000+ lines of hand-written HTML, CSS and JS, no framework. AGPL-3.0.<br><br>`Windows` · `web` · [Play in the browser](https://moddys.net/forge/) · [Releases](https://github.com/ModdySwag/PatternForge/releases) |
-| <a href="https://github.com/ModdySwag/Anvil"><img src="assets/anvil.jpg" width="430" alt="Anvil — the cockpit view of the synthesizer"></a> | **Anvil** — a synth and groovebox in a single `index.html`.<br><br>Acid, wavetable, FM, string, drum, granular and sampler engines; a step sequencer with chains, song rows and scenes; a seven-slot FX rack with drag-to-modulate matrix; 10 packs and 580 presets; a recording desk that exports WAV, stems, MIDI and song bundles. 94,000+ lines, no framework, no bundler beyond its own build script. AGPL-3.0.<br><br>`Windows` · `web` · [Play in the browser](https://moddys.net/anvil/) · [Releases](https://github.com/ModdySwag/Anvil/releases) |
+<table>
+  <tr>
+    <td width="46%" valign="top"><a href="https://github.com/ModdySwag/SSH-it"><img src="assets/ssh-it.png" width="100%" alt="SSH-it — terminal, session list and file panel"></a></td>
+    <td width="54%" valign="top"><strong>SSH-it</strong> — a native Windows SSH workspace that drives the real OpenSSH client.<br><br>ConPTY terminal with a full VT parser, split panes and broadcast, an SFTP panel with dual panes, resume and mirror, jump chains with per-hop keys, MFA through the pane, and a session store that is just JSON files you can read. MIT.<br><br><code>Windows</code> · <code>C# / .NET</code> · <a href="https://github.com/ModdySwag/SSH-it/releases">Releases</a></td>
+  </tr>
+  <tr>
+    <td width="46%" valign="top"><a href="https://github.com/ModdySwag/world-radio-and-podcasts-android"><img src="assets/world-radio.jpg" width="100%" alt="MODDYS World Radio and Podcasts — the globe, station list and player"></a></td>
+    <td width="54%" valign="top"><strong>MODDYS World Radio &amp; Podcasts</strong> — 71,577 live stations plus a 58,795-show podcast directory, on Android and iOS.<br><br>Keeps playing with the screen off and the app in the background, puts the station on your lock screen, and doesn't lose the ~11,600 stations that still stream over plain <code>http://</code>. Both apps ship the same shell script as the site, byte for byte.<br><br><code>Android</code> · <code>iOS</code> · <a href="https://github.com/ModdySwag/world-radio-and-podcasts-android/releases">Android</a> · <a href="https://github.com/ModdySwag/world-radio-and-podcasts-ios/releases">iOS</a></td>
+  </tr>
+  <tr>
+    <td width="46%" valign="top"><a href="https://github.com/ModdySwag/PatternForge"><img src="assets/pattern-forge.jpg" width="100%" alt="Pattern Forge — the workstation view with the pattern editor"></a></td>
+    <td width="54%" valign="top"><strong>Pattern Forge</strong> — a live-coding music workstation built on <a href="https://strudel.cc">Strudel</a>.<br><br>A full GUI over the TidalCycles pattern language: a pattern editor with its own library of ready patterns, instruments and a mixer, recording and export, and a Windows build that runs the same code as the site. 26,000+ lines of hand-written HTML, CSS and JS, no framework. AGPL-3.0.<br><br><code>Windows</code> · <code>web</code> · <a href="https://moddys.net/forge/">Play in the browser</a> · <a href="https://github.com/ModdySwag/PatternForge/releases">Releases</a></td>
+  </tr>
+  <tr>
+    <td width="46%" valign="top"><a href="https://github.com/ModdySwag/Anvil"><img src="assets/anvil.jpg" width="100%" alt="Anvil — the cockpit view of the synthesizer"></a></td>
+    <td width="54%" valign="top"><strong>Anvil</strong> — a synth and groovebox in a single <code>index.html</code>.<br><br>Acid, wavetable, FM, string, drum, granular and sampler engines; a step sequencer with chains, song rows and scenes; a seven-slot FX rack with drag-to-modulate matrix; 10 packs and 580 presets; a recording desk that exports WAV, stems, MIDI and song bundles. 94,000+ lines, no framework, no bundler beyond its own build script. AGPL-3.0.<br><br><code>Windows</code> · <code>web</code> · <a href="https://moddys.net/anvil/">Play in the browser</a> · <a href="https://github.com/ModdySwag/Anvil/releases">Releases</a></td>
+  </tr>
+</table>
+
 
 ## The rest of the shelf
 
